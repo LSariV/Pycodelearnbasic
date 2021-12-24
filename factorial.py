@@ -11,3 +11,19 @@ else:
         factorial = factorial * i
     print("factorial of the given number ", num, "is", factorial )
     
+    
+    # factorial of a number using resurcive approach
+    
+    # n! = n* (n-1)* (n-2)* ....1
+    # 4! = 4* (4-1)* (4-2)*(4-3)
+    
+    num2 = int(input("enter num2 "))
+    
+    def factorial(num2):
+        if (num2==0 or num2==1):
+            return 1
+        else:
+            return num2 * factorial(num2-1)
+        
+print("factorial of your number using recurrive method " , factorial(num2))
+        
