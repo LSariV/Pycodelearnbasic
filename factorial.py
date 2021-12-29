@@ -19,11 +19,11 @@ else:
     
     num2 = int(input("enter num2 "))
     
-    def factorial(num2):
+    def factoria(num2):
         if (num2==0 or num2==1):
             return 1
         else:
-            return num2 * factorial(num2-1)
+            return num2 * factoria(num2-1)
         
-print("factorial of your number using recurrive method " , factorial(num2))
+print("factorial of your number using recurrive method " , factoria(num2))
         
