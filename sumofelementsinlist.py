@@ -36,7 +36,7 @@ print("while loop ", totalsumoflist)
  
 #Using for loop
 # Declare list of numbers as string
-numlist3 = ['2','4','2','5','7','9','23','4','pap']
+numlist3 = ['2','4','2','5','7','9','23','4','5']
 # Calculate sum of list
 
 numsum1=0
