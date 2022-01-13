@@ -23,3 +23,4 @@ arry=[7,5,4,2]
 arry[0],arr[-1] = arry[-1], arry[0]
 print (arry)
  
+ #Approach 3 using touple..pending

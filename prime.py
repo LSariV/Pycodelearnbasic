@@ -23,7 +23,7 @@ if num > 1:
     # other method
 
     for i in range(2, num):
-        print("value of i is " , i)
+        #print("value of i is " , i)
         if (num % i) == 0:
             print("is not prime")
             break
